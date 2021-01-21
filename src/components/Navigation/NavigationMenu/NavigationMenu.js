@@ -8,6 +8,7 @@ const navigationItems = () => (
         <NavMenuItem link="/about">ABOUT</NavMenuItem>
         <NavMenuItem link="/projects">PROJECTS</NavMenuItem>
         <NavMenuItem link="/skills">SKILLS</NavMenuItem>
+        <NavMenuItem link="/skills">CONTACT</NavMenuItem>
         <NavMenuItem link="/resume">RESUME</NavMenuItem>
     </ul>
 );
