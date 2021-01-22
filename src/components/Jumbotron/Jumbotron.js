@@ -4,7 +4,7 @@ import { Typewriter } from 'react-typewriting-effect'
 import 'react-typewriting-effect/dist/index.css'
 import Delayed from "../../hoc/Delayed/Delayed"
 
-const jumbotron = () => (
+const Jumbotron = () => (
     <div className={classes.Jumbotron}>
         <Typewriter
             string="Hi,"
@@ -31,4 +31,4 @@ const jumbotron = () => (
 
 
 
-export default jumbotron;
+export default Jumbotron;

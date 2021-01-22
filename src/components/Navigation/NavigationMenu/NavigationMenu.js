@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./NavigationMenu.module.css";
 import NavMenuItem from "./NavMenuItem/NavMenuItem";
 
-const navigationItems = () => (
+const NavigationItems = () => (
     <ul className={classes.NavigationMenu}>
         <NavMenuItem link="/">HOME</NavMenuItem>
         <NavMenuItem link="/about">ABOUT</NavMenuItem>
@@ -13,4 +13,4 @@ const navigationItems = () => (
     </ul>
 );
 
-export default navigationItems;
+export default NavigationItems;
