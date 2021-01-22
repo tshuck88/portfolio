@@ -1,28 +1,29 @@
 import React from "react";
+import classes from "./Jumbotron.module.css";
 import { Typewriter } from 'react-typewriting-effect'
 import 'react-typewriting-effect/dist/index.css'
 import Delayed from "./Delayed"
 
 const jumbotron = () => (
-    <div>
+    <div className={classes.Jumbotron}>
         <Typewriter
             string="Hi,"
-            delay={200}
+            delay={150}
             stopBlinkinOnComplete
         />
         <br />
         <Delayed waitBeforeShow={2000}>
             <Typewriter
                 string="I'm Tyler."
-                delay={200}
+                delay={150}
                 stopBlinkinOnComplete
             />
         </Delayed>
         <br />
         <Delayed waitBeforeShow={5000}>
             <Typewriter
-                string="Welcome to my portfolio page."
-                delay={200}
+                string="Welcome to my portfolio website."
+                delay={150}
             />
         </Delayed>
     </div>
