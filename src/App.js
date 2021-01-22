@@ -1,7 +1,8 @@
 import './App.css';
 import NavigationMenu from "./components/Navigation/NavigationMenu/NavigationMenu";
 import Jumbotron from "./components/Jumbotron/Jumbotron";
-import AboutMe from "./components/AboutMe/AboutMe"
+import AboutMe from "./components/AboutMe/AboutMe";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <NavigationMenu />
       <Jumbotron />
       <AboutMe />
+      <Projects />
 
     </div>
   );
