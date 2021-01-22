@@ -1,7 +1,12 @@
 import React from "react";
 
-const AboutMe = () => {
+const AboutMe = () => (
+    <div>
+        <img />
 
-}
+    </div>
+)
+
+
 
 export default AboutMe;
