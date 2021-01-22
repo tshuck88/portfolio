@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./Jumbotron.module.css";
 import { Typewriter } from 'react-typewriting-effect'
 import 'react-typewriting-effect/dist/index.css'
-import Delayed from "./Delayed"
+import Delayed from "../../hoc/Delayed/Delayed"
 
 const jumbotron = () => (
     <div className={classes.Jumbotron}>
