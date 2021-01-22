@@ -3,4 +3,7 @@
     padding: 20px;
     font-size: 80px;
     font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
 }

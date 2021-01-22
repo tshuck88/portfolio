@@ -22,7 +22,7 @@ const jumbotron = () => (
         <br />
         <Delayed waitBeforeShow={5000}>
             <Typewriter
-                string="Welcome to my portfolio website."
+                string="Welcome to my website."
                 delay={150}
             />
         </Delayed>
