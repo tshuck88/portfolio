@@ -6,7 +6,7 @@ const AboutMe = () => (
     <div className={classes.AboutMe}>
         <div className="container-fluid">
             <div className="row">
-                <div className="col-lg-4">
+                <div className="col-md-4">
                     <div className={classes.imgWrapper}>
                         <img src={bioPic} alt="Tyler Shuck"></img>
                     </div>
