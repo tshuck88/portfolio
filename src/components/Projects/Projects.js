@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./Projects.module.css";
 
 const Projects = () => (
-    <div className={classes.Projects}>
+    <div className={classes.Projects} id="projects">
         <div className="container-fluid">
             <h1>My Projects</h1>
             <div className="row row-cols-1 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-4">

@@ -5,10 +5,10 @@ import NavMenuItem from "./NavMenuItem/NavMenuItem";
 const NavigationItems = () => (
     <ul className={classes.NavigationMenu}>
         <NavMenuItem link="/">HOME</NavMenuItem>
-        <NavMenuItem link="/about">ABOUT</NavMenuItem>
-        <NavMenuItem link="/projects">PROJECTS</NavMenuItem>
+        <NavMenuItem link="/#about">ABOUT</NavMenuItem>
+        <NavMenuItem link="/#projects">PROJECTS</NavMenuItem>
         <NavMenuItem link="/skills">SKILLS</NavMenuItem>
-        <NavMenuItem link="/skills">CONTACT</NavMenuItem>
+        <NavMenuItem link="/#contact">CONTACT</NavMenuItem>
         <NavMenuItem link="/resume">RESUME</NavMenuItem>
     </ul>
 );

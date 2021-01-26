@@ -3,7 +3,7 @@ import classes from "./AboutMe.module.css";
 import bioPic from "../../assets/images/bioPic.jpg";
 
 const AboutMe = () => (
-    <div className={classes.AboutMe}>
+    <div className={classes.AboutMe} id="about">
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-4">
