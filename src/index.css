@@ -32,8 +32,8 @@ body:after{
 }
 
 
-/* @media (max-width: 767px) {
-  body {
-    background-attachment: scroll;
+@media (max-width: 991px) {
+  html, body {
+    scroll-padding-top: 45px;
   }
-} */
+}
