@@ -10,7 +10,7 @@ const Contact = () => (
                     <div className={classes.Container}>
                         <div >
                             <p className={classes.ContactItem}>
-                                <a className={`${classes.ContactImage} btn btn-dark`} href="mailto:tshuck88@gmail.com" type="button"><i className="far fa-envelope"></i></a>
+                                <a href="mailto:tshuck88@gmail.com"><button className={`${classes.ContactImage} btn btn-dark`} type="button"><i className="far fa-envelope"></i></button></a>
                                 <a className={classes.ContactText} href="mailto:tshuck88@gmail.com">tshuck88@gmail.com</a>
                             </p>
                             <p className={classes.ContactItem}>
