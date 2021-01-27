@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import classes from "./NavigationMenu.module.css";
 import NavMenuItem from "./NavMenuItem/NavMenuItem";
+import Sidebar from "../Sidebar/Sidebar"
 
 const NavigationItems = () => {
     const [navBackground, setNavBackground] = useState(false)
@@ -25,10 +26,10 @@ const NavigationItems = () => {
                 <NavMenuItem link="/">HOME</NavMenuItem>
                 <NavMenuItem link="/#about">ABOUT</NavMenuItem>
                 <NavMenuItem link="/#projects">PROJECTS</NavMenuItem>
-                <NavMenuItem link="/skills">SKILLS</NavMenuItem>
                 <NavMenuItem link="/#contact">CONTACT</NavMenuItem>
                 <NavMenuItem link="/resume">RESUME</NavMenuItem>
             </ul>
+        <Sidebar />
         </nav>
 
     );
