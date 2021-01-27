@@ -5,8 +5,8 @@ import Drawer from '@material-ui/core/Drawer';
 import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import NavMenuItem from "../NavigationMenu/NavMenuItem/NavMenuItem"
-// import ListItemText from '@material-ui/core/ListItemText';
+import NavMenuItem from "../NavigationMenu/NavMenuItem/NavMenuItem";
+import Hamburger from "./Hamburger/Hamburger";
 
 
 const useStyles = makeStyles({
@@ -66,7 +66,7 @@ export default function TemporaryDrawer() {
     <div>
       {['left'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+          <Button onClick={toggleDrawer(anchor, true)}><Hamburger /></Button>
           <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
             {list(anchor)}
           </Drawer>
