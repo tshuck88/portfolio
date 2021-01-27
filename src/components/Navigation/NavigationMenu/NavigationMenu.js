@@ -24,9 +24,9 @@ const NavigationItems = () => {
         <nav className={`sticky-top ${navBackground ? classes.navScroll : null}`}>
             <ul className={classes.NavigationMenu}>
                 <NavMenuItem link="/">HOME</NavMenuItem>
-                <NavMenuItem link="/index.html#about">ABOUT</NavMenuItem>
-                <NavMenuItem link="/index.html#projects">PROJECTS</NavMenuItem>
-                <NavMenuItem link="/index.html#contact">CONTACT</NavMenuItem>
+                <NavMenuItem link="#about">ABOUT</NavMenuItem>
+                <NavMenuItem link="#projects">PROJECTS</NavMenuItem>
+                <NavMenuItem link="#contact">CONTACT</NavMenuItem>
                 <NavMenuItem link="/resume">RESUME</NavMenuItem>
             </ul>
             <div className={classes.Sidebar}><Sidebar /></div>
