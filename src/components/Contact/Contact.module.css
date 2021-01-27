@@ -1,0 +1,33 @@
+.Contact {
+    background-color: white;
+    padding: 40px 0;
+}
+
+.Contact h1 {
+    text-align: center;
+}
+
+/* .ContactItem {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+} */
+
+.ContactText {
+    text-decoration: none;
+    color: inherit;
+    align-self: center;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.ContactImage {
+    border-radius: 50%;
+    font-size: 26px;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0;
+}

@@ -3,6 +3,7 @@ import NavigationMenu from "./components/Navigation/NavigationMenu/NavigationMen
 import Jumbotron from "./components/Jumbotron/Jumbotron";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Jumbotron />
       <AboutMe />
       <Projects />
-
+      <Contact />
     </div>
   );
 }
