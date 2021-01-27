@@ -11,7 +11,7 @@ const Jumbotron = () => (
             delay={150}
             stopBlinkinOnComplete
         />
-        <br />
+        <br /><br />
         <Delayed waitBeforeShow={2000}>
             <Typewriter
                 string="I'm Tyler."
@@ -19,7 +19,7 @@ const Jumbotron = () => (
                 stopBlinkinOnComplete
             />
         </Delayed>
-        <br />
+        <br /><br />
         <Delayed waitBeforeShow={5000}>
             <Typewriter
                 string="Welcome to my website."

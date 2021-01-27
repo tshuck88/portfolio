@@ -2,11 +2,9 @@
     margin-top: 40px;
     padding: 20px;
     font-size: 80px;
-    display: flex;
-    flex-flow: column;
-    height: 100%;
-    /* background: url("../../assets/images/backgroundImage.jpg") no-repeat center fixed;
-    background-size: 100% 100%; */
+    /* display: flex;
+    flex-flow: column; */
+    height: 700px;
 }
 
 @media (max-width: 1050px) {
@@ -17,7 +15,7 @@
 
 @media (max-width: 500px) {
     .Jumbotron {
-        font-size: 58px;
-        height: 100%;
+        font-size: 50px;
+        height: 100vh;
     }
 }
