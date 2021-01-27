@@ -4,7 +4,7 @@
     font-size: 80px;
     display: flex;
     flex-flow: column;
-    height: 700px;
+    height: 100vh;
     /* background: url("../../assets/images/backgroundImage.jpg") no-repeat center fixed;
     background-size: 100% 100%; */
 }
@@ -17,6 +17,7 @@
 
 @media (max-width: 500px) {
     .Jumbotron {
-        font-size: 40px;
+        font-size: 58px;
+        height: 100vh;
     }
 }
