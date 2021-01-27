@@ -34,12 +34,12 @@ export default function TemporaryDrawer() {
 
   const listLinks = (text) => {
     switch (text) {
-        case "home": return "/";
-        case "about": return "/#about";
-        case "projects": return "/#projects";
-        case "contact": return "/#contact";
-        case "resume": return "/";
-        default: return "/";
+        case "home": return "#";
+        case "about": return "#about";
+        case "projects": return "#projects";
+        case "contact": return "#contact";
+        case "resume": return "#";
+        default: return "#";
     }
   }
 
