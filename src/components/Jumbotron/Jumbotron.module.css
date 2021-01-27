@@ -15,7 +15,6 @@
 
 @media (max-width: 500px) {
     .Jumbotron {
-        font-size: 50px;
-        height: 100vh;
+        font-size: 58px;
     }
 }
