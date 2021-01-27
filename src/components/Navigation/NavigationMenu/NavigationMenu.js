@@ -29,7 +29,7 @@ const NavigationItems = () => {
                 <NavMenuItem link="/#contact">CONTACT</NavMenuItem>
                 <NavMenuItem link="/resume">RESUME</NavMenuItem>
             </ul>
-        <Sidebar />
+            <div className={classes.Sidebar}><Sidebar /></div>
         </nav>
 
     );

@@ -13,3 +13,20 @@
     background-color: white;
     border-bottom: 2px lightgray solid;
 }
+
+.Sidebar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (min-width: 992px) {
+    .Sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .NavigationMenu {
+        display: none;
+    }
+}
