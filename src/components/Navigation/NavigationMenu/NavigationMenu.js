@@ -23,7 +23,7 @@ const NavigationItems = () => {
     return (
         <nav className={`sticky-top ${navBackground ? classes.navScroll : null}`}>
             <ul className={classes.NavigationMenu}>
-                <NavMenuItem link="/">HOME</NavMenuItem>
+                <NavMenuItem link="#">HOME</NavMenuItem>
                 <NavMenuItem link="#about">ABOUT</NavMenuItem>
                 <NavMenuItem link="#projects">PROJECTS</NavMenuItem>
                 <NavMenuItem link="#contact">CONTACT</NavMenuItem>
