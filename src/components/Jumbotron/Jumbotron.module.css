@@ -8,3 +8,15 @@
     /* background: url("../../assets/images/backgroundImage.jpg") no-repeat center fixed;
     background-size: 100% 100%; */
 }
+
+@media (max-width: 1050px) {
+    .Jumbotron {
+        font-size: 68px;
+    }
+}
+
+@media (max-width: 500px) {
+    .Jumbotron {
+        font-size: 58px;
+    }
+}
