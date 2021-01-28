@@ -27,7 +27,7 @@ const NavigationItems = () => {
                 <NavMenuItem link="#about">ABOUT</NavMenuItem>
                 <NavMenuItem link="#projects">PROJECTS</NavMenuItem>
                 <NavMenuItem link="#contact">CONTACT</NavMenuItem>
-                <NavMenuItem link="/resume">RESUME</NavMenuItem>
+                <NavMenuItem link="https://drive.google.com/file/d/1au6gZ7Aqj2dN6sX3zkneMUjhqRK1AHz3/view?usp=sharing">RESUME</NavMenuItem>
             </ul>
             <div className={classes.Sidebar}><Sidebar /></div>
         </nav>

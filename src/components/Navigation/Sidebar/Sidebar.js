@@ -38,7 +38,7 @@ export default function TemporaryDrawer() {
         case "about": return "#about";
         case "projects": return "#projects";
         case "contact": return "#contact";
-        case "resume": return "#";
+        case "resume": return "https://drive.google.com/file/d/1au6gZ7Aqj2dN6sX3zkneMUjhqRK1AHz3/view?usp=sharing";
         default: return "#";
     }
   }
