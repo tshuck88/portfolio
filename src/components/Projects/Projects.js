@@ -104,7 +104,7 @@ const Projects = () => (
                     <div className="card h-100">
                         <div className="card-body">
                             <h5 className="card-title">NFL Clicky Game</h5>
-                            <p className="card-text">NFL themed game clicking game built using React.</p>
+                            <p className="card-text">NFL themed clicking game built using React.</p>
                         </div>
                         <div className={`${classes.buttonWrapper} buttonWrapper d-flex justify-content-between`}>
                             <a href="https://github.com/tshuck88/clicky-game" target="_blank" rel="noreferrer"><button type="button" className="btn btn-outline-dark">Github</button></a>
